@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+main {
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #96a2b4;
+    color: #fff;
+    text-align: justify;
+}
+
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+h1,
+section h2,
+button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+section {
+    padding: 24px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+#story {
+    background-image: url('./images/background-story.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#story p {
+    font-size: 24px;
+}
+
+#story .container img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#characters-joel {
+    background-image: url('./images/background-joel.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#characters-ellie {
+    background-image: url('./images/background-ellie.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#contact {
+    background-image: url('./images/background-contato.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#contact .container {
+    display: block;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #333;
+}
+
+.container button a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.container button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 32px;
+    padding: 16px 142px;
+    display: flex;
+    justify-content: center;
+}
+
+.container button:hover {
+    background-color: #666;
+}
+
+.joel-perfil,
+.ellie-perfil {
+    width: 50%;
+    margin-right: 32px;
+    object-fit: cover;
+}
+
+#story p,
+#characters-joel p,
+#characters-ellie p {
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0;
+}
+
+footer a {
+    color: #2275e2;
+    text-decoration: none;
+    font-size: 16px;
+}
